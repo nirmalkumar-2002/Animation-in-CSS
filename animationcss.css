@@ -1,0 +1,101 @@
+*{	margin:0px;
+	padding:0px;}
+
+
+
+div{	background-color:black;
+
+				}
+nav{
+	
+	height:80px;	
+	display:flex;
+	align-items: center;
+	text-align:center;
+	position:sticky;
+	top:0px;
+	background-color:black;
+	border:2px solid grey;
+	z-index: 1;
+				}
+
+
+.flex{ 
+	margin:20px;
+	font-size:1.5rem;
+	border:2px solid grey;
+	border-radius:10px;
+	color:grey;
+	
+			}
+h2{
+	color:white;
+	padding-right:800px;
+
+			}
+
+h1{
+	color:beige;
+	text-transform:uppercase;
+	font-size:9rem;
+				}
+
+
+
+.para1{
+	font-size:1.2rem;
+	text-transform:uppercase;
+	color:beige;
+					}
+
+.para2{
+	font-size:2rem;
+	text-transform:uppercase;
+	color:beige;
+	padding-top:50px;
+	padding-left:800px;	
+				}
+
+
+.para3{
+	font-size:1.2rem;
+	text-transform:uppercase;
+	color:beige;
+	padding-top:80px;
+	padding-left:800px;
+	text-align:left;	
+				}
+
+
+.box{
+	height:400px;
+	width:400px;
+	position:absolute;
+	left:920px;
+	top:150px;
+	background-image:url("./man.webp");
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-color:grey;
+	border-radius:25px;
+	animation-name:animate;
+	animation-duration:2s;
+	animation-direction:alternate-reverse;
+	animation-iteration-count:infinite;
+					}
+
+
+@keyframes animate{
+	
+	from{transform:rotate;}
+
+	to{transform:rotate(10deg);}
+
+							}
+
+a{text-decoration:none;
+	color:white;
+	padding:10px;
+	margin:10px;
+
+	}
